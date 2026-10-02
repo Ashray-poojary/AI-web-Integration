@@ -156,6 +156,7 @@ This is a **learning project** and is still under development.
 The project is mainly focused on understanding how **web applications and local AI models can work together**.
 
 And note that ai can only work in current IDE, It wont work with live server or port forwarding because they assign different ports.
+It can only work on a device, in which your are running your ai model.
 ## License
 
 This project is open source and available under the MIT License.
