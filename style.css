@@ -38,6 +38,7 @@
   background-color: var(--colorshade1);
   font-size: 20px;
   letter-spacing: 1px;
+  color: white;
 }
 
 #btn {
