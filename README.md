@@ -97,6 +97,7 @@ For example:
   --host 0.0.0.0 \
   --port 8080
 ```
+(Here a pre-compiled llama package can be used no need to build from scratch, It works as same above or below steps).
 
 The local server will run on:
 
