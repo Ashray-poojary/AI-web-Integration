@@ -2,21 +2,24 @@
   padding: 0;
   margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: rgb(107, 78, 134);
+  --colorshade1: #0F172A;
+  --colorshade2: #48c3f8;
+  --colorshade3: #F8FAFC;
+  background-color: var(--colorshade1);
 }
 .main {
   align-items: center;
+  margin: 2px;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
-  color: white;
+  background-color: var(--colorshade2);
   padding: 20px;
 }
 .navbar p {
-  background-color: black;
+  background-color: var(--colorshade2);
 }
 .container {
   display: flex;
@@ -26,14 +29,13 @@
 }
 
 #message {
-  border: 2px solid blue;
+  border: 2px solid var(--colorshade2);
   width: 90%;
   height: 30px;
   border-radius: 20px;
   padding: 20px;
   margin: 20px;
-  background-color: black;
-  color: white;
+  background-color: var(--colorshade1);
   font-size: 20px;
   letter-spacing: 1px;
 }
@@ -41,22 +43,24 @@
 #btn {
   width: 40%;
   height: 50px;
-  border: 2px solid blue;
+  border: 2px solid var(--colorshade2);
   border-radius: 14px;
   font-size: 20px;
-  background-color: rgb(148, 117, 202);
+  background-color: var(--colorshade3);
+  color: black;
 }
 
 #response {
   margin: 20px;
   padding: 20px;
   font-size: 20px;
-  background-color: gray;
+  background-color: var(--colorshade1);
   width: 90%;
   height: auto;
   min-height: 65vh;
   display: flex;
   justify-self: center;
-  border: 2px solid blue;
+  border: 2px solid var(--colorshade2);
   border-radius: 20px;
+  color: white;
 }
