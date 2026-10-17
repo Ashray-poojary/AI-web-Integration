@@ -1,6 +1,6 @@
 async function sendMessage() {
-  const messageInput = document.getElementById("message");
-  const responseOutput = document.getElementById("response");
+  const messageInput = document.getElementById("input");
+  const responseOutput = document.getElementById("output");
   const message = messageInput.value.trim();
 
   if (!message) {
